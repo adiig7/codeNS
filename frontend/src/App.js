@@ -8,8 +8,6 @@ import ethLogo from './assets/ethlogo.png';
 import { networks } from './utils/networks';
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 // Add the domain you will be minting
 const tld = '.code';
 const CONTRACT_ADDRESS = '0x2A0B2fd03Aa06609629f8d5a626c944864985D54';
@@ -151,7 +149,7 @@ const App = () => {
         <input
           type="text"
           value={record}
-          placeholder='whats ur ninja power?'
+          placeholder='Whats your tech stack?'
           onChange={e => setRecord(e.target.value)}
         />
           {/* If the editing variable is true, return the "Set record" and "Cancel" button */}
@@ -302,7 +300,7 @@ const renderMints = () => {
 	// Render methods
 	const renderNotConnectedContainer = () => (
 		<div className="connect-wallet-container">
-			<img src="https://media.giphy.com/media/3ohhwytHcusSCXXOUg/giphy.gif" alt="Ninja donut gif" />
+			<img src="https://i.pinimg.com/originals/ce/69/4f/ce694f560636dffcf42ecf40d4f2f962.gif" alt="Code gif" />
       {/* Call the connectWallet function we just wrote when the button is clicked */}
 			<button onClick={connectWallet} className="cta-button connect-wallet-button">
 				Connect Wallet
@@ -361,7 +359,7 @@ const renderMints = () => {
 				<div className="header-container">
 						<header>
 							<div className="left">
-							<p className="title">🐱‍👤 Ninja Name Service</p>
+							<p className="title">codeNS 🧑‍💻</p>
 							<p className="subtitle">Your immortal API on the blockchain!</p>
 							</div>
 							{/* Display a logo and wallet connection status*/}
@@ -379,13 +377,7 @@ const renderMints = () => {
 				{mints && renderMints()}
 				
 				<div className="footer-container">
-					<img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
-					<a
-						className="footer-text"
-						href={TWITTER_LINK}
-						target="_blank"
-						rel="noreferrer"
-					>{`built with @${TWITTER_HANDLE}`}</a>
+					
 				</div>
 			</div>
 			</div>
