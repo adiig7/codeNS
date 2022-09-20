@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# codeNS
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+![codeNS-20-09-2022](https://user-images.githubusercontent.com/54351909/191247118-8980fa1b-155f-4db8-8ab1-c6a9279f353b.png)
